@@ -1,0 +1,53 @@
+img {
+  width: 500px;
+  height: 300px;
+}
+
+.carousel {
+  width: 3500px;
+  display: flex;
+  /* translate: -500px; */
+}
+
+.container {
+  width: 500px;
+  overflow: hidden;
+  border: 5px solid black;
+  padding: 16px;
+  position: relative;
+}
+
+button {
+  position: absolute;
+  font-size: 48px;
+  border-radius: 50%;
+  z-index: 100;
+}
+
+.slide-right {
+  top: 50%;
+  right: 0px;
+}
+
+.slide-left {
+  top: 50%;
+  left: 0px;
+}
+
+.dots {
+  text-align: center;
+  margin-top: 12px;
+}
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #333;
+}
